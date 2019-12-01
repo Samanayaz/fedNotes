@@ -1,0 +1,15 @@
+h2 {
+    color: red
+}
+
+h4 {
+    color: seagreen;
+}
+
+h3 {
+    color: darkblue;
+    /* inline style always take preference over saperate css file */
+}
+li{
+    color: deeppink
+}

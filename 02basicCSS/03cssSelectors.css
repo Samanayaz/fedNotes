@@ -1,0 +1,30 @@
+/* CSS Selectors
+1) element
+select all instances of a element
+2) classes
+-selects all element with a given class name
+_classes can occur as many times as it wants in a page 
+-syntax: .className
+3)
+-selects all elements with a given class name
+-can only appear one time per page
+-purpose of using it is to single something out
+-syntax : #idname
+*/
+
+
+
+body {
+    background: aqua
+}
+
+li {
+    color: red;
+}
+
+.completed {color: yellow;
+}
+
+#important {
+    color: pink; 
+}

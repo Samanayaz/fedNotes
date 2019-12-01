@@ -1,0 +1,28 @@
+h1 {
+    font-size: 3rm;
+}
+img{
+    width: 800px;
+}
+
+
+@media(max-width: 1023px) {
+    h1 {
+        color: darkred;
+        border: 1px solid blue;
+    }
+    img{
+        width: 75%
+    }
+}
+
+@media (max-width:767px){
+h1{
+    font-size: 2em;
+    color: blue;
+}} 
+
+@media (max-width: 478px) {
+p{font-size: 2em;}
+    img{width: 90% }   
+}

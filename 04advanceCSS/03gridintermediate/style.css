@@ -1,0 +1,42 @@
+.wrapper > div {
+    background: #eee;
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(odd) {
+    background: darkgrey;
+}
+
+.wrapper {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* splits divs inside the grid into fractions of three equal columns */
+
+     /* grid-template-columns: 2fr 1fr 1 fr; */
+
+     grid-template-columns: repeat(3, 1fr);
+     /* 1fr three times */
+
+     /* grid-template-columns: repeat(2, 2fr 1fr) ; */
+     /* 2fr 1fr repeating twice with sequence */
+
+     gap: 1em;
+
+     grid-auto-columns: minmax(100px, auto);
+
+}
+
+/* nested setup */
+.nested > div {
+    border: #333 1px solid;
+    padding: 1em;
+}
+
+.nested {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 20px;
+    /* to slightly increase the height of nested divs so it looks more like a squre than a rectangle */
+    gap: 1em;
+}
+

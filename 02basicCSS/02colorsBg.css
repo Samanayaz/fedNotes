@@ -1,0 +1,43 @@
+/* 
+-COLORS IN css
+>Hexadecimal
+- # + string of 6 hexadecimal number #ff0000
+(from 0-F)
+- second two numbers correspond to green #00ff00
+_third two numbers correspond to blue
+#00ff00
+>RGb - 3 channel: red, green, blue
+-each channel ranges from 0-255
+
+>RGBA - just like RGB, bit with an alpha (transparency)channel
+-alpha channel ranges from 1.0 to 0.0
+
+-Backgrounds
+  -give body a background color
+  background: color;
+   -give the body a background image
+   background: url(http://www.url.com/image.jpg);
+
+   -Borders
+   border: with style color;
+ */
+h1 {
+    color: #ff0000;
+     /* border-color: rgb(0,0,255);
+    border-width: 5px;
+    border-style: solid; */
+    
+    border: 5px solid rgb(0, 0,255)
+}
+h4 {
+    color: rgb(11,99,150);
+
+    background: rgba(255,100,0,.25);
+}
+
+body {
+    /* background: pink */
+    background: url(https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

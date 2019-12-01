@@ -1,0 +1,47 @@
+/* font-family - if font name has a number in the begining. you have to put quotes around it */
+
+p {font-family: 'Shadows Into Light Two', cursive; }
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+/* font sixe - 
+em is equal to the size the parent element 
+i.e 5x10*/
+
+body {font-size: 10px;}
+
+h1 {font-size: 5em;}
+
+p {font-size: 2.0em;}
+/* fontsize for p is 2.0 x 10px(body font sixe) */
+
+span {
+    font-size: 2.0rem;
+    /* font-size: em is equal to the size of the parent
+    rem- is equal to size of the root element (html) usualy is 16px */
+}
+
+/* font weight :
+-bold/lightweight 
+-set value in ranges 100-1000 */
+
+p{ 
+    font-weight: bold;
+    /* font-weight;: normal/light/800/400; */
+}
+/* line height= space btw text lines */
+p{
+     line-height:1.5;
+}
+/* text-align */
+h1{
+    text-align: center;
+}
+
+/* text decorations */
+p { text-decoration: underline; }
+
+h1 {text-decoration: line-through;}
+
+span {text-decoration: overline;}

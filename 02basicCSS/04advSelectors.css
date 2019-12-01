@@ -1,0 +1,38 @@
+/* Avanced Selector */
+
+/* Star - selects everything on page */
+
+* {
+    border: 1px solid lightgray
+}
+
+/* decendant selectors - it takes two or more tag name (selectors) and chains them together */
+
+li a {
+    color: red;
+
+}
+
+/* Adjacent Selector: selecting elements that come after another element; not nest inside  rather a sibling  */
+h4 + ul {
+    border: 3px solid green; 
+}
+/* Attribute Selector- select elements based off of my attribute */
+a[href="https://www.google.com/"]
+{
+    background: yellow;
+}
+
+/* nth-of-type - it takes a number and selects every nth of a specific element */
+
+/* gives final or 3rd <ul> the pink background*/
+ul:nth-of-type(3) { background: pink}
+
+/* gives every 3rd <li> the color background */
+li:nth-of-type(3) {
+    background: plum;
+}
+
+/* give every even nymbered <li> a color background */
+li:nth-of-type(even)
+{background: cyan}

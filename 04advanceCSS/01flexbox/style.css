@@ -1,0 +1,59 @@
+.container-1 div, .container-2 div, .container-3 div {
+    border: 1px #ccc solid;
+    padding: 10px; 
+}
+
+.container-1 {
+    display: flex;
+    /* align-items: flex-start; */
+    /* box adjust to content and moves towards the top */
+    /* align-items: flex-end;*/
+    /* box adjust to content and moves towards the bottom */
+    align-items: stretch;
+     /* it stays the same (default setting) */ 
+     /* flex-direction: column; (to arrange boxes vertically: 'row" is default */
+/* align-items: center;
+}  it cause space on top and bottom of content*/ }
+
+.box-1 {
+    flex: 3;
+    order:3
+}
+ .box-2 {
+     flex: 2;
+     order: 1;
+ }
+
+ .box-3 {
+     flex: 1;
+     order: 2;
+ }
+
+ .container-2 {
+     display: flex;
+     justify-content: space-between;
+     /* to spreadout content to margin btw the content */
+     /* justify-content: space-around; */
+     /* to spread margin btw and on the sides */
+     /* justify content: flex-start*/
+     /* justify content:flex-end */
+     /* justify content: center*/
+     /* justify content:stretch*/
+ }
+
+.container-2-box {
+    /* width: 25%; */
+    flex-basis: 25%;
+    /* same thing as width works better with flex box syntatically */
+}
+
+.container-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* when we want wrap and as we narrow screen it'll push boxes down to next line */
+}
+
+.container-3-box{
+    flex-basis: 12%;
+}

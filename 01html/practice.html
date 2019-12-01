@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Application</title>
+    <style> 
+    .street {
+        width: 400px;
+    }
+    </style>
+</head>
+<body>
+    <h1>Employment Application</h1>
+    <div>
+    <label for="company">Company Name</label>
+    <input type="text" placeholder="ABC Company" id="company">
+    </div>
+    <br>
+    <div>
+        <label for="contact">First Name</label>
+        <input type="text" placeholder="Ashley" id="contact">
+        <label for="last">Last Name</label>
+        <input type="text" placeholder="Jones" id="last">
+    </div>
+    <br>
+    <div>
+        <label for="title">Contact Title</label>
+        <input type="text" placeholder="sales representative" id="title">
+
+    </div>
+    <br>
+    <div>
+        <label for="Birth">AGE</label>
+        <select name="Age" id="Birth">
+        <option disabled selected value="20"></option>
+        <option value="">21</option>
+        <option value="">22</option>
+        <option value="">23</option>
+        <option value="">24</option>
+        <option value="">25</option> </select>
+    </div>
+    <br>
+    <div>
+        <label>Date OF Birth:</label>
+     <select name="Month">
+        <option disabled selected value="01">Month</option>
+        <option value="">01</option>
+        <option value="">02</option>
+        <option value="">03</option>
+        <option value="">04</option>
+        <option value="">05</option></select>
+        <select name="Day" id="">
+            <option disabled selected value="">Day</option>
+            <option value="">21</option>
+            <option value="">22</option>
+            <option value="">23</option>
+            <option value="">25</option>
+            <option value="">26</option>
+        </select>
+        <select name="Year" id="">
+            <option disabled selected value="">Year</option>
+                <option value="">1991</option>
+                <option value="">1992</option>
+                <option value="">1993</option>
+                <option value="">1994</option>
+                <option value="">1995</option>
+                <option value=""><1996/option>
+        </select>
+ </div>
+ <br>
+ <div>
+     <label for="Address">Address:</label>
+     <input type="text" placeholder="street" class="street" id="address">
+     <br>
+     <input type="text" placeholder="city" id="address">
+     <input type="text" placeholder="state" id="address">
+     <input type="text" placeholder="zipcode" id="address">
+ </div>
+ <br>
+    <div>
+        <label for="work">Would You Work: </label>
+        <label for="Full">Full Time</label>
+        <input type="radio" name="Work" id="Full">
+        <label for="Part">Part Time</label>
+        <input type="radio" name="Work" id="Part">
+    </div>
+    <br>
+    <div>
+        <label for="Availablity"> <strong>Date available to work</strong></label>
+        <table border=1>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Mon</th>
+                    <th>tue</th>
+                    <th>wed</th>
+                    <th>thur</th>
+                    <th>fri</th>
+                    <th>sat</th>
+                    <th>sun</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>AM</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>PM</td> 
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                         </tr>
+            </tbody>
+         </table>
+        
+    </div>
+    <br>
+    <div>
+        <label for="relocate">Are you willing to relocate: </label>
+        <label for="relocate">yes</label>
+        <input type="radio" name=YN id="relocate">
+        <label for="relocate">No</label>
+        <input type="radio" id="relocate" name="YN">
+        <br>
+        <label for="Yes">If yes then where: </label>
+        <input type="text" id="Yes">
+    </div>
+    <br>
+    <button>Apply</button>
+    
+</body>
+</html>

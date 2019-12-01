@@ -1,0 +1,59 @@
+/* the box model
+-in a web doc, every element is represented as a rectangular box, and in css each of these is described using the box model
+-each of these box has four edges
+1:content 
+2:padding
+3:border
+4:margin- space btw the border and everything else outside of it
+ */
+ p{
+     /* content- width and height */
+     width: 50%;
+     /* width: 200px; */
+     height: 200px;
+
+     /* border -the border property is short hand syntax in css that accepts multiple values for drawing a line around the element that is aapplied in the combination 
+     -syntax 
+     *border: border-width, border-style, border-color 
+     border-width specifies the thickness and itcan be measured in pixel, em and rem
+     thin=1px, medium=3px , thick=5px
+     *border-style : type of line drawn aeround the element i,e 
+     -solid,none, hidden
+     -dashed, dotted,, double, grown, ridge
+     *colors
+     -generic name, hex, rgba, rgb
+
+     */
+
+     border-width: 2px ;
+     border-color: blue;
+     border-style: solid;
+     /* border: 2px solid blue */
+ 
+ /* padding - space btw the content and border */
+ /* padding-top: 5px;
+ padding-right: 20px ;
+padding-bottom: 5px;
+padding-left: 20px; */
+/* padding: 5px 20px 5px 20px;
+start at the top and go clockwise */
+/* or */
+padding: 1em 2em 1em 2em;
+/* or use "padding: 1em 2em" -1em for top bottom and 2em right left */
+/* or */
+padding: 2em 3em 4em; 
+/* 2em for to,p 3em left and right and 4em is bottom */ 
+/* or */
+ /* padding: 2em; for all four sides */
+
+ /* margin - space btw border and anything outside/around it */
+ /* we go clockwise in same manner as padding */
+ margin: 40px 60px 40px 60px ;
+ /* or */
+ /* margin-top:
+ margin-right: 
+ margin-bottom:
+ margin left; */
+ margin: 4em
+ }
+

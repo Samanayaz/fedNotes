@@ -1,0 +1,19 @@
+/* setup */
+.wrapper > div {
+    background: #eee;
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(odd) {
+    background: darkgrey;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    /* grid-column-gap: 1em;
+    grid-row-gap:1em ; */
+    /* grid-gap: 1em or*/
+    gap: 1em;
+}
+

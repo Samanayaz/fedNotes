@@ -1,0 +1,14 @@
+body {color: red;}
+
+ul{
+    color: sienna;
+}
+li {color: orange;}
+
+.highlight {
+    background: grey;
+    color: yellow;
+}
+#special {
+    color: blue;
+}
