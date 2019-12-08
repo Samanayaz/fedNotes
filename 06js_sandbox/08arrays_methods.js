@@ -75,18 +75,17 @@ val = numbers.sort((x,y) => {
 
 // find method 
 // step one: crate a testing function 
-var under50 = (num) =>
- {return num < 50;}
+var under50 = (num) => {
+    return num < 50;
+}
 
- val =age.find(under50);
+val =age.find(under50);
 
- var over50 = (num) => {
-     return num > 50;
+var over50 = (num) => {
+    return num > 50;
+}
 
- }
-
- val = age.find(over50); 
-
+val = age.find(over50); 
 
 
 // output 
