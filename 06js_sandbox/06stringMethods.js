@@ -33,7 +33,7 @@ val = firstName.toLocaleLowerCase();
 // how to treat string like read-only arrays 
   //  find the specific character/value during the index 
 
-i,e val = [0,1,2,3,4,5]
+val = [0,1,2,3,4,5]
 
 val = firstName[4];
 
