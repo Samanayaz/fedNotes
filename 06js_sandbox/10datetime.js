@@ -22,9 +22,9 @@ val = today.getDay();
 
 val = today.getFullYear();
 val = today.getHours();
-val = today.getminutes();
-val = today.getseconds();
-val = today.getmilliseconds();
+val = today.getMinutes();
+val = today.getSeconds();
+val = today.getMilliseconds();
 val = today.getTime();
 
 
@@ -36,7 +36,7 @@ birthday.setdate(12);
 birthday.setFullYear(1214);
 birthday.sethours(3);
 birthday.setminutes(45);
-birthday.setSeconds(30;)
+birthday.setSeconds(30);
 
 
 

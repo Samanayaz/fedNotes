@@ -44,7 +44,7 @@ numbers.unshift(120)
 numbers.shift();
 
 // add on to the end 
-numbers.pop(250);
+numbers.push(250);
 
 // remove from end 
 numbers.pop();
