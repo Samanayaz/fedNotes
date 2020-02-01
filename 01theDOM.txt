@@ -1,0 +1,10 @@
+what is DOM?
+->document Object Model 
+   -A  structured representation of the HTML Document 
+->tree of nodes/elements created by the browser 
+   -By nodes/elements, any of the HTML tags that are in the HTML document that the browser loads 
+->Javascript can be used to read, write and manupulate these DOM elements. 
+->Object-oriented representation  
+    -the DOM is Object-oriented, which means each node has its own set of properties and methods that we can change, add , or remove. 
+    
+  

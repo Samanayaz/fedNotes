@@ -2,17 +2,16 @@ const person = {
     firstName: 'steve',
     lastName: 'smith',
     age: 33,
-    email: stevesmith@gmail.com, 
+    email: 'stevesmith@gmail.com', 
     hobbies: ['soccer', 'coding', 'playing with sticks'],
     address: {
         streetaddres: '3134 walnut circle',
         city: 'pine',
         state: 'il',
         zip: 60077,
-    }
-
-    birthyear: function(){
-        return 1986
+    },
+    getBirthYear: function(){
+        return 1986;
     }
 }
 
@@ -64,9 +63,9 @@ const people = [
     {name: 'wes', age:66},
     {name: 'jeb', age:14},
     {name: 'sun', age:24},
-]
+];
 
 // we can iterate through this array using a for loop 
-for (let i=0, i<people.length; i++) {
+for (let i=0; i<people.length; i++) {
     console.log(people[i].age);
 }

@@ -9,26 +9,25 @@ let val;
 console.log(val);
  
 val = document.all; 
-// looks like an array we can access the value of our document using indexes 
+// // looks like an array we can access the value of our document using indexes 
 
-val = document.all[3];
-// used like an array we can access the values of our document using indexes 
-
-val = document.all.length;
-// select the number of the elements in the DOM 
+ val = document.all[3];
+// // used like an array we can access the values of our document using indexes 
+ val = document.all.length;
+// // select the number of the elements in the DOM 
 
 val = document.head; 
 
 val = document.body;
 val = document.doctype;
 val = document.domain;
-// shows the loopback address/host address/info
+// // shows the loopback address/host address/info
 val = document.URL;
 val = document.characterSet;
 val = document.contentType;
 
 
-// selecting elements without selectors, not recommended but still possible 
+// // selecting elements without selectors, not recommended but still possible 
 val = document.forms; 
 val = document.forms[0]; 
 val = document.forms[0].id;
@@ -49,8 +48,8 @@ val = document.scripts[2].getAttribute("src");
 //      console.log(script);
 //  })
 
-//  gives error saying scripts .forEach is not a function because forEach is for Arrays only
-// so to convert this into an array, we'll create a new variable and use the Array.from( method )
+// //  gives error saying scripts .forEach is not a function because forEach is for Arrays only
+// // so to convert this into an array, we'll create a new variable and use the Array.from( method )
 
 let scriptsArr = Array.from(scripts); 
 

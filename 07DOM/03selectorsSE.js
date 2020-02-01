@@ -18,22 +18,24 @@
 
 console.log(document.getElementById("task-title"));
 console.log(document.getElementById("task-title").id);
+// this is consoling the element id of task-title then giving us the id name if any
 console.log(document.getElementById("task-title").className);
+// this is consoling the element id of task-title then giving us the class name if any
 
-// changing style 
+// // changing style  
 
 // document.getElementById('task-title').style.background = '#333';
-// document.getElementById('task-title').style.color = '#fff';
-// document.getElementById('task-title').style.padding= '5px';
+// // document.getElementById('task-title').style.color = '#fff';
+// // document.getElementById('task-title').style.padding= '5px';
 
-// keep your code DRY - means don't repeat yourself 
+// // keep your code DRY - means don't repeat yourself 
 
 const taskTitle = document.getElementById('task-title');
 taskTitle.style.background = "#333";
 taskTitle.style.color = '#fff';
 taskTitle.style.padding= '5px';
 
-// change content 
+// // change content 
 
 taskTitle.textContent = 'task list';
 taskTitle.innerText = 'my Tasks';
@@ -42,25 +44,24 @@ taskTitle.innerHtml = '<span style="color:red">task list</span>';
 
 
 
-
-// get element by id
+// // get element by id
 console.log(document.querySelector('#task-title'));
-// get element by class
+// // get element by class
 console.log(document.querySelector('.card-title'));
-// get element 
+// // get element 
 console.log(document.querySelector('h5'));
 
-// lets work with list-items
+// // lets work with list-items
 document.querySelector('li').style.color = "red";
 document.querySelector('ul li').style.color = "blue";
 
-// select the last li 
+// // select the last li 
 document.querySelector('li:last-child').style.color = 'green'; 
-// specifically select the 3rd li
-document.querySelector('li:nth-child(3').style.color = "yellow";
-// specifically select the 4th li
+// // specifically select the 3rd li
+document.querySelector('li:nth-child(3)').style.color = "yellow";
+// // specifically select the 4th li
 document.querySelector('li:nth-child(4)').textContent = 'this is the 4th List-Item';
-// odd and even 
+// // odd and even 
 document.querySelector('li:nth-child(odd)').style.background = '#eee';
 document.querySelector('li:nth-child(even').style.background = '#aaa';
 
