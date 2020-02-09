@@ -22,7 +22,7 @@
 
 
 // document.byElements BYClassName
-const items = document.getElementsByClassName('collection-item');
+const items = document.getElementsByClassName('collection-item')
 console.log(items);
 console.log(items[0]);
 
@@ -67,10 +67,10 @@ console.log(lis);
 
 
 const things = document.querySelectorAll('ul.collection li.collection-item');
-console.log(things);
-things.forEach(function(things, index){
-    things.textContent = `${index}: Index Number Node-list`
-});
+// console.log(things);
+// things.forEach(function(things, index){
+//     things.textContent = `${index}: Index Number Node-list`
+// });
 
 
 const thingOdd = document.querySelectorAll('li:nth-child(odd');
