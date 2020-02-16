@@ -48,3 +48,14 @@ function runEvent(e) {
 }
 
 
+
+// datebase 
+// -relational 
+//    -table like structure 
+//       -SQL 
+//       -mysql 
+//       -Postgra
+
+// -NonRelational 
+//   -irregular 
+//      -MongoDb 
